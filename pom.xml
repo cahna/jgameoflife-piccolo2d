@@ -2,7 +2,6 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.cheine.jgameoflife</groupId>
   <artifactId>jgameoflife-piccolo2d</artifactId>
   <packaging>jar</packaging>
 
@@ -19,7 +18,14 @@
       <artifactId>jgameoflife-core</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+    	<groupId>org.piccolo2d</groupId>
+    	<artifactId>piccolo2d-core</artifactId>
+    	<version>3.0</version>
+    	<type>pom</type>
+    </dependency>
   </dependencies>
+
   <parent>
   	<groupId>com.cheine.jgameoflife</groupId>
   	<artifactId>jgameoflife-all</artifactId>
