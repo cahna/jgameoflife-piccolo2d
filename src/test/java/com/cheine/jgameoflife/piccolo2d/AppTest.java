@@ -1,4 +1,4 @@
-package com.cheine;
+package com.cheine.jgameoflife.piccolo2d;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

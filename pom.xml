@@ -22,7 +22,17 @@
     	<groupId>org.piccolo2d</groupId>
     	<artifactId>piccolo2d-core</artifactId>
     	<version>3.0</version>
-    	<type>pom</type>
+    	<type>jar</type>
+    </dependency>
+    <dependency>
+    	<groupId>org.piccolo2d</groupId>
+    	<artifactId>piccolo2d-extras</artifactId>
+    	<version>3.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.piccolo2d</groupId>
+    	<artifactId>piccolo2d-examples</artifactId>
+    	<version>3.0</version>
     </dependency>
   </dependencies>
 
